@@ -19,7 +19,7 @@ class Pet(ABC):
     def __init__(self, name, root):
         self.name = name
         self.hunger = 50  # ערך התחלתי
-        self.happiness = 50  # ערך התחלתי
+        self.happiness = 52  # ערך התחלתי
         self.training = 0  # ערך התחלתי
         self.sickness = 0  # ערך התחלתי
         self.stage = LifeStage.BABY  # התחל מ-Baby
